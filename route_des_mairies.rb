@@ -32,8 +32,8 @@ list_of_mails = []
   list_of_mails
 end
 
-get_the_email_of_a_townhal_from_its_webpage('http://annuaire-des-mairies.com/95/vaureal.html') #première méthode qui va cherche l'email d'une mairie sur son site
+p get_the_email_of_a_townhal_from_its_webpage('http://annuaire-des-mairies.com/95/vaureal.html') #première méthode qui va cherche l'email d'une mairie sur son site
 
-get_all_the_urls_of_val_doise_townhalls('http://annuaire-des-mairies.com','http://annuaire-des-mairies.com/val-d-oise.html') #va chercher tous les mails de toutes les mairies
+p get_all_the_urls_of_val_doise_townhalls('http://annuaire-des-mairies.com','http://annuaire-des-mairies.com/val-d-oise.html') #va chercher tous les mails de toutes les mairies
 
 p get_all_the_mails_of_val_doise_townhalls('http://annuaire-des-mairies.com','http://annuaire-des-mairies.com/val-d-oise.html') #va chercher tous les mails de toutes les mairies
